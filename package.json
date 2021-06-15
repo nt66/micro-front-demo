@@ -1,0 +1,23 @@
+{
+  "name": "micro-front-demo",
+  "version": "1.0.0",
+  "author": "灵峯",
+  "scripts": {
+    "install:all": "cd main && yarn && cd ../react16 && yarn",
+    "start:all":"npm run start:react16 & npm run start:main",
+    "start:main": "cd main && yarn start",
+    "start:react16": "cd react16 && yarn start:qk"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
